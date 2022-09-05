@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: fantasy;
+  font-family: sans-serif;
 }
 
 a{
@@ -27,6 +27,9 @@ nav {
 .nav-brand h1{
   letter-spacing: 3px;
   font-size: 30px;
+}
+
+.nav-brand a{
   color: black;
 }
 
@@ -71,4 +74,8 @@ nav {
   background-color: black;
   top: 10px;
   left: 40px;
+}
+
+.dark-bg{
+  background-color: rgb(56, 55, 55);
 }
